@@ -6,7 +6,7 @@ $userController= new UserController();
 $users = $userController->getAllUsers();
 
 if(empty($users)){
-    echo'<h3>There are no users!</h3>';
+    echo'<h3>There are no users to display!</h3>';
 }
 else {
     echo'<div class="users-list">';

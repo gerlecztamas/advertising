@@ -6,7 +6,7 @@ $advertisementController= new AdvertisementController();
 $advertisements = $advertisementController->getAllAdvertisements();
 
 if(empty($advertisements)){
-    echo'<h3>There are no advertisements!</h3>';
+    echo'<h3>There are no advertisements to display!</h3>';
 }
 else {
     echo'<div class="advertisement-list">';
