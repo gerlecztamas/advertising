@@ -11,3 +11,27 @@ Simple PHP application where users and their representative advertisements can b
 * The application both has a page to display the users and their advertisements as well
 * Overall the system has 3 pages: home (index), users and advertisements
 * The system has a minimalist css design with images, google fonts and other icons
+
+## Index/home
+
+The homepage simply contains a brief introduction and two links to the other two pages.
+
+![Képernyőfelvétel (167)](https://github.com/gerlecztamas/advertising/assets/93374277/8af06d11-a77b-45ca-af05-dc5576601397)
+
+## Users
+
+The users page also contains a brief introduction and the UsersView is included using php. The users are listed here.
+
+![Képernyőfelvétel (169)](https://github.com/gerlecztamas/advertising/assets/93374277/6cbb26c8-bdd8-4dbe-a25b-8bca1f4160e7)
+
+## Advertisements
+
+The advertisements page also contains a brief introduction and the AdvertisementsView is included using php. The advertisements are listed here.
+
+![Képernyőfelvétel (170)](https://github.com/gerlecztamas/advertising/assets/93374277/3a260c91-fb35-41bd-b3fd-3ee71ed9d714)
+
+
+
+
+
+
