@@ -20,6 +20,8 @@ a:hover{
     opacity: 0.75;
 }
 
+/* Navbar-menu */
+
 .menu{
     display: flex;
     padding: 10px;
@@ -31,60 +33,7 @@ a:hover{
     text-transform: lowercase;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-}
-
-main h1{
-    font-weight: normal;
-    text-transform: lowercase;
-}
-
-.users-list, .advertisement-list{
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    justify-content: center;
-    margin: 40px;
-}
-
-.user-list-item, .advertisement-list-item{
-    text-align: center;
-    padding: 24px 28px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    border-radius: 10px;
-}
-
-.user-list-item h4, .advertisement-list-item h4{
-    margin-bottom: 0;
-}
-
-.images{
-    display: flex;
-    margin-top: 40px;
-}
-
-.ads, .users{
-    height: 300px;
-    width: 400px;
-    text-align: center;
-}
-
-.images img{
-    width: 70%;
-    margin-bottom: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
-}
-
-.images img:hover{
-    transition: all 0.7s;
-    transform: scale(1.1);
-}
+/* Footer */
 
 footer{
     background-color: rgba(219, 218, 218, 0.705);
@@ -125,4 +74,65 @@ hr{
     font-size: 18px;
     text-transform: lowercase;
 
+}
+
+/* Main section on each page */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+main h1{
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+/* Home page */
+
+.images{
+    display: flex;
+    margin-top: 40px;
+}
+
+.ads, .users{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+}
+
+.images img{
+    width: 70%;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.images img:hover{
+    transition: all 0.7s;
+    transform: scale(1.1);
+}
+
+/* Users and advertisements page */
+
+.users-list, .advertisement-list{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.user-list-item, .advertisement-list-item{
+    text-align: center;
+    padding: 24px 28px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+}
+
+.user-list-item h4, .advertisement-list-item h4{
+    margin-bottom: 0;
 }

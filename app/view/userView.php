@@ -10,13 +10,10 @@ if(empty($users)){
 }
 else {
     echo'<div class="users-list">';
-    for($i =0; $i<=5;$i++)
-    {
     foreach($users as $user){
-        echo'<div class="user-list-item">';
+        echo'<a href=""><div class="user-list-item">';
         echo'<i class="fa-regular fa-user fa-2xl"></i><br>';
-        echo'<h4>'.$user->get_name().'</h4></div>';
+        echo'<h4>'.$user->get_name().'</h4></div></a>';
     }
-} 
     echo '</div>';
 }

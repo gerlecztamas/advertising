@@ -9,12 +9,13 @@ class AdvertisementService{
 
     public function __construct()
     {
-      $dbName = "advertising";
-      $dbUser = "root";
-      $dbPass = "mysql";
-      $dsn = "mysql:host=localhost;dbname=". $dbName .";charset=utf8mb4";
+        /* change to your own settings at will */
+        $dbName = "advertising";
+        $dbUser = "root";
+        $dbPass = "mysql";
+        $dsn = "mysql:host=localhost;dbname=". $dbName .";charset=utf8mb4";
 
-      $this->pdo = new PDO($dsn, $dbUser, $dbPass);
+        $this->pdo = new PDO($dsn, $dbUser, $dbPass);
     }
 
     public function getAllAdvertisements()
