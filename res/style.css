@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: 'RobotoMono-Variable'; 
-    src: url(./fonts/RobotoMono/RobotoMono-VariableFont_wght.ttf);
+    src: url(./fonts/RobotoMono-VariableFont_wght.ttf);
 }
 
 body{
@@ -55,7 +55,6 @@ main h1{
 .user-list-item, .advertisement-list-item{
     text-align: center;
     padding: 24px 28px;
-    /*background-color: rgba(219, 218, 218, 0.705);*/
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     border-radius: 10px;
 }
