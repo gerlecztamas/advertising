@@ -88,7 +88,33 @@ Service layer connects to the database and stores the queried data in entities d
   * Stores the connection to the database in a variable making it reusable.
 * getAllUsers
   * Stores the queried advertisements in an array and returns them to the controller.
- 
+
+
+ ## Controller layer
+
+ Controller layer communicates between the View and Service/Model layers.
+
+ ### UserController
+
+ #### Attributes
+
+ * The controller has a UserService field to retrieve data from the database through that.
+
+ #### Functions
+
+ * getAllUsers
+  * The controller handles the request from the View layer and uses the UserService to return all users stored in an array to the View layer.
+
+### AdvertisementController
+
+ #### Attributes
+
+ * The controller has a AdvertisementService field to retrieve data from the database through that.
+
+ #### Functions
+
+ * getAllAdvertisements
+  * The controller handles the request from the View layer and uses the AdvertisementService to return all advertisements stored in an array to the View layer.
 
 
 
