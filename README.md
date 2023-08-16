@@ -48,6 +48,51 @@ The database has two tables, users and advertisements.
 ![Képernyőfelvétel (172)](https://github.com/gerlecztamas/advertising/assets/93374277/bebddb1f-d435-47ed-bdd9-175d64cae548)
 
 
+## Model Layer
+
+Model layer is only used for representation of the two main classes with their representative attributes and methods.
+
+### User class
+
+#### Attributes
+
+* id
+* name
+
+### Advertisement class
+
+#### Attributes
+
+* id
+* user - representing the user connected to the advertisement as a whole User entity
+* title
+
+## Service layer
+
+Service layer connects to the database and stores the queried data in entities defined by the Model layer's classes. The queried data can be manipulated here as well.
+
+### UserService
+
+#### Functions
+
+* constructor
+  * Stores the connection to the database in a variable making it reusable.
+* getAllUsers
+  * Stores the queried users in an array and returns them to the controller.
+ 
+### AdvertisementService
+
+#### Functions
+
+* constructor
+  * Stores the connection to the database in a variable making it reusable.
+* getAllUsers
+  * Stores the queried advertisements in an array and returns them to the controller.
+ 
+
+
+
+
 
 
 
