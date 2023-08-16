@@ -31,6 +31,22 @@ The advertisements page also contains a brief introduction and the Advertisement
 ![Képernyőfelvétel (170)](https://github.com/gerlecztamas/advertising/assets/93374277/3a260c91-fb35-41bd-b3fd-3ee71ed9d714)
 
 
+## Include folder
+
+The include folder contains the navbar and footer templates, which are used/included in all three main pages php file.
+
+## Database
+
+The database has two tables, users and advertisements.
+
+### Users(id, name)
+
+![Képernyőfelvétel (171)](https://github.com/gerlecztamas/advertising/assets/93374277/856eda27-6b76-4641-81ad-fc5e1efebbf0)
+
+### Advertisements(id, userid, title)
+
+![Képernyőfelvétel (172)](https://github.com/gerlecztamas/advertising/assets/93374277/bebddb1f-d435-47ed-bdd9-175d64cae548)
+
 
 
 
