@@ -106,7 +106,7 @@ Service layer connects to the database and stores the queried data in entities d
 
  #### Functions
 
- * getAllUsers
+* getAllUsers
   * The controller handles the request from the View layer and uses the UserService to return all users stored in an array to the View layer.
 
 ### AdvertisementController
@@ -117,7 +117,7 @@ Service layer connects to the database and stores the queried data in entities d
 
  #### Functions
 
- * getAllAdvertisements
+* getAllAdvertisements
   * The controller handles the request from the View layer and uses the AdvertisementService to return all advertisements stored in an array to the View layer.
 
 ## View layer
