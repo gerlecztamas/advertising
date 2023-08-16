@@ -35,6 +35,10 @@ The advertisements page also contains a brief introduction and the Advertisement
 
 The include folder contains the navbar and footer templates, which are used/included in all three main pages php file.
 
+## Fonts and images folders
+
+These folders contain the used fonts and images during the project.
+
 ## Database
 
 The database has two tables, users and advertisements.
@@ -116,8 +120,22 @@ Service layer connects to the database and stores the queried data in entities d
  * getAllAdvertisements
   * The controller handles the request from the View layer and uses the AdvertisementService to return all advertisements stored in an array to the View layer.
 
+## View layer
+
+The elements of the View layer are called from the main pages to display the right view for the client user.
+
+### UserView
+
+The UserView alerts the Controller layer to retrieve the users and displays the users by querying the data. If no users are retrieved an "error message" is displayed instead.
+
+### AdvertisementView
+
+The AdvertisementView alerts the Controller layer to retrieve the advertisements and displays the advertisements by querying the data. If no advertisements are retrieved an "error message" is displayed instead.
 
 
+## .htacces file
+
+Here I tried to implement the required URL mapping altough I'm not sure if I did it the right way.
 
 
 
